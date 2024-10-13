@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+:root {
+  --primary: #d1c9ff;
+}
+
+[id] {
+  scroll-margin-top: 2em;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.bg-primary {
+  background-color: var(--primary);
+}
+
+.text-priary {
+  color: var(--primary);
+}
+
+#world {
+  background-image: url(./map4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 0%;
+  background-position-y: 0%;
+}
+
+label {
+  font-weight: 600;
+}
