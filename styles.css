@@ -26,7 +26,7 @@ body {
 }
 
 #world {
-  background-image: url(./map4.png);
+  background-image: url(./src/assets/map4.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: 0%;
@@ -35,4 +35,61 @@ body {
 
 label {
   font-weight: 600;
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  bottom: -0.5em;
+  left: 0;
+  width: 0%;
+  height: 1px;
+  background-color: black;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::before {
+  animation: zap 0.6s forwards;
+}
+
+@keyframes zap {
+  0% {
+    width: 0;
+    left: 0;
+  }
+  50% {
+    width: 100%;
+    left: 0;
+  }
+  100% {
+    width: 0;
+    left: 100%;
+  }
+}
+
+.custom-button {
+  transition: color 0.4s;
+}
+
+.custom-button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 85%;
+  width: 30em;
+  height: 30em;
+  background-color: var(--primary);
+  transition: transform 0.8s ease;
+  transform: translate(-50%, -50%) scale(0);
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.custom-button:hover::before {
+  transform: translate(-50%, -50%) scale(1);
+  border: 1px solid var(--primary);
+}
+
+.custom-button:hover {
+  color: black;
 }

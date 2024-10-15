@@ -17,27 +17,31 @@
       class="flex items-center justify-between mb-20 px-16 py-6"
       id="header"
     >
-      <img src="./lnyalogo.png" alt="" id="header-img" />
+      <img src="./src/assets/lnyalogo.png" alt="" id="header-img" />
       <nav id="nav-bar">
-        <ul class="flex items-center justify-center gap-8">
+        <ul class="flex items-center justify-center gap-4">
           <li class="nav-item">
-            <a href="#services" class="nav-link hover:before">Services</a>
+            <a href="#services" class="nav-link relative px-2">Services</a>
           </li>
           <li class="nav-item">
-            <a href="#people" class="nav-link">People&Design</a>
+            <a href="#people" class="nav-link relative px-2">People&Design</a>
           </li>
           <li class="nav-item">
-            <a href="#sustain" class="nav-link">Sustainability</a>
+            <a href="#sustain" class="nav-link relative px-2">Sustainability</a>
           </li>
           <li class="nav-item">
-            <a href="#production" class="nav-link">Production</a>
+            <a href="#production" class="nav-link relative px-2">Production</a>
           </li>
           <li class="nav-item">
-            <a href="#customer" class="nav-link">Product&Customers</a>
+            <a href="#customer" class="nav-link relative px-2"
+              >Product&Customers</a
+            >
           </li>
         </ul>
       </nav>
-      <button class="px-8 py-4 rounded-full bg-black text-white font-medium">
+      <button
+        class="px-8 py-4 rounded-full bg-black text-white font-medium transition duration-300 ease-in-out hover:bg-[var(--primary)] hover:text-black"
+      >
         Contact us
       </button>
     </header>
@@ -47,20 +51,25 @@
       <p class="hero-text text-8xl mb-6">Fashion Destination</p>
       <p class="hero-text text-2xl">Discover trends, embrace elegance,</p>
       <p class="hero-text text-2xl mb-6">and redefine your wardrobe with us.</p>
+
       <button
-        class="ps-8 pe-2 py-2 rounded-full bg-black text-white font-medium flex items-center justify-start gap-4"
+        class="custom-button ps-8 pe-2 py-2 rounded-full bg-black text-white font-medium flex items-center justify-start gap-4 relative overflow-hidden"
       >
-        <span class="">Explore worldwide</span>
+        <span class="bg-trnasparent z-10">Explore worldwide</span>
         <span
-          class="bg-primary w-12 h-12 flex justify-center items-center rounded-full text-black"
+          class="bg-primary w-12 h-12 flex justify-center items-center rounded-full text-black z-10"
         >
-          <span class="material-symbols-outlined"> arrow_forward </span>
+          <span class="material-symbols-outlined">arrow_forward</span>
         </span>
       </button>
     </section>
 
     <section id="hero-img" class="mb-6 mx-6">
-      <img src="./hero.jpg" alt="hero-image" class="object-cover rounded-xl" />
+      <img
+        src="./src/assets/hero.jpg"
+        alt="hero-image"
+        class="object-cover rounded-xl"
+      />
     </section>
 
     <section id="" class="mx-6">
@@ -81,13 +90,13 @@
           </p>
 
           <button
-            class="ps-8 pe-2 py-2 rounded-full bg-black text-white font-medium flex items-center justify-start gap-4"
+            class="custom-button ps-8 pe-2 py-2 rounded-full bg-black text-white font-medium flex items-center justify-start gap-4 relative overflow-hidden"
           >
-            <span class="">Our services</span>
+            <span class="bg-trnasparent z-10">Our services</span>
             <span
-              class="bg-primary w-12 h-12 flex justify-center items-center rounded-full text-black"
+              class="bg-primary w-12 h-12 flex justify-center items-center rounded-full text-black z-10"
             >
-              <span class="material-symbols-outlined"> arrow_forward </span>
+              <span class="material-symbols-outlined">arrow_forward</span>
             </span>
           </button>
         </div>
@@ -103,7 +112,7 @@
         </div>
         <div class="col-span-1">
           <img
-            src="./coffee.jpg"
+            src="./src/assets/coffee.jpg"
             alt="hero-image"
             class="w-full h-[15em] object-cover rounded-xl"
           />
@@ -190,7 +199,7 @@
         </div>
         <div class="col-span-1">
           <img
-            src="./seatedWoman.jpg"
+            src="./src/assets/seatedWoman.jpg"
             alt="hero-image"
             class="w-full h-[55em] object-cover rounded-xl"
           />
@@ -202,7 +211,7 @@
       <div class="grid grid-cols-2 rounded-xl gap-12" id="">
         <div class="col-span-1">
           <img
-            src="./couch.jpg"
+            src="./src/assets/couch.jpg"
             alt="hero-image"
             class="w-full h-[55em] object-cover rounded-xl"
           />
@@ -213,7 +222,7 @@
               <p class="text-6xl mb-2">Empowered</p>
               <p class="text-6xl mb-2">Minds, Positive</p>
               <p class="text-6xl mb-12">Vibration</p>
-              <button class="border-b py-3">Contact Us</button>
+              <button class="py-3 relative">Contact Us</button>
             </div>
             <div class="">
               <p class="py-4 text-xl font-medium">
@@ -240,7 +249,7 @@
         <div class="grid grid-cols-4 gap-4">
           <div class="col-span-1">
             <img
-              src="person1.jpg"
+              src="./src/assets/person1.jpg"
               alt=""
               class="h-96 w-full object-cover rounded-xl"
             />
@@ -253,7 +262,7 @@
           </div>
           <div class="col-span-1">
             <img
-              src="person2.jpg"
+              src="./src/assets/person2.jpg"
               alt=""
               class="h-96 w-full object-cover rounded-xl"
             />
@@ -266,7 +275,7 @@
           </div>
           <div class="col-span-1">
             <img
-              src="person3.jpg"
+              src="./src/assets/person3.jpg"
               alt=""
               class="h-96 w-full object-cover rounded-xl"
             />
@@ -281,7 +290,7 @@
           </div>
           <div class="col-span-1">
             <img
-              src="person4.jpg"
+              src="./src/assets/person4.jpg"
               alt=""
               class="h-96 w-full object-cover rounded-xl"
             />
@@ -312,13 +321,13 @@
           <p class="text-2xl mb-6">of unparalleled quality and innovation.</p>
 
           <button
-            class="ps-8 pe-2 py-2 rounded-full bg-black text-white font-medium flex items-center justify-start gap-4"
+            class="custom-button ps-8 pe-2 py-2 rounded-full bg-black text-white font-medium flex items-center justify-start gap-4 relative overflow-hidden"
           >
-            <span class="">Contact Us</span>
+            <span class="bg-trnasparent z-10">Contact Us</span>
             <span
-              class="bg-primary w-12 h-12 flex justify-center items-center rounded-full text-black"
+              class="bg-primary w-12 h-12 flex justify-center items-center rounded-full text-black z-10"
             >
-              <span class="material-symbols-outlined"> arrow_forward </span>
+              <span class="material-symbols-outlined">arrow_forward</span>
             </span>
           </button>
         </div>
@@ -327,7 +336,7 @@
       <div class="grid grid-cols-2 py-6 border-b">
         <div class="col-span-1 my-6">
           <img
-            src="./office.jpg"
+            src="./src/assets/office.jpg"
             alt="hero-image"
             class="w-3/4 h-[15em] object-cover rounded-xl"
           />
@@ -352,7 +361,7 @@
       <div class="grid grid-cols-2 py-6 border-b">
         <div class="col-span-1 my-6">
           <img
-            src="./store.jpg"
+            src="./src/assets/store.jpg"
             alt="hero-image"
             class="w-3/4 h-[15em] object-cover rounded-xl"
           />
@@ -377,7 +386,7 @@
       <div class="grid grid-cols-2 py-6">
         <div class="col-span-1 my-6">
           <img
-            src="./handbag.jpg"
+            src="./src/assets/handbag.jpg"
             alt="hero-image"
             class="w-3/4 h-[15em] object-cover rounded-xl"
           />
@@ -419,14 +428,14 @@
       <div class="grid grid-cols-11 gap-4">
         <div class="col-span-5">
           <img
-            src="./pinkbag.jpg"
+            src="./src/assets/pinkbag.jpg"
             alt="hero-image"
             class="w-full h-[30em] object-cover rounded-xl"
           />
         </div>
         <div class="col-span-6">
           <img
-            src="./project.jpg"
+            src="./src/assets/project.jpg"
             alt="hero-image"
             class="w-full h-[30em] object-cover rounded-xl"
           />
@@ -461,63 +470,74 @@
 
           <div class="col-span-1">
             <form action="/" method="post">
-
-                <div class="form-group">
-                  <label for="name" class="text-md">Full Name</label>
-                  <input
-                    type="text"
-                    name="name"
-                    id="name"
-                    class="block w-full mt-2 mb-6 border border-gray-400 px-6 rounded-md bg-transparent h-14"
-                    placeholder="john Doe"
-                  />
-                </div>
-                <div class="form-group">
-                  <label for="email" class="text-md">Email Address</label>
-                  <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    class="block w-full mt-2 mb-6 border border-gray-400 px-6 rounded-md bg-transparent h-14"
-                    placeholder="john@emapleemail.com"
-                  />
-                </div>
-                <div class="form-group">
-                  <label for="question" class="text-md">Question</label>
-                  <input
-                    type="text"
-                    name="question"
-                    id="question"
-                    class="block w-full mt-2 mb-6 border border-gray-400 px-6 rounded-md bg-transparent h-14"
-                    placeholder="How can we help you?"
-                  />
-                </div>
-                <button
-                  class="px-8 py-4 rounded-full bg-black text-white font-medium"
-                  type="submit"
-                >
-                  Send a Message
-                </button>
+              <div class="form-group">
+                <label for="name" class="text-md">Full Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  class="block w-full mt-2 mb-6 border border-gray-400 px-6 rounded-md bg-transparent h-14"
+                  placeholder="john Doe"
+                />
               </div>
+              <div class="form-group">
+                <label for="email" class="text-md">Email Address</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="block w-full mt-2 mb-6 border border-gray-400 px-6 rounded-md bg-transparent h-14"
+                  placeholder="john@emapleemail.com"
+                />
+              </div>
+              <div class="form-group">
+                <label for="question" class="text-md">Question</label>
+                <input
+                  type="text"
+                  name="question"
+                  id="question"
+                  class="block w-full mt-2 mb-6 border border-gray-400 px-6 rounded-md bg-transparent h-14"
+                  placeholder="How can we help you?"
+                />
+              </div>
+              <button
+                class="px-8 py-4 rounded-full bg-black text-white font-medium"
+                type="submit"
+              >
+                Send a Message
+              </button>
             </form>
+          </div>
         </div>
       </div>
     </section>
 
     <section id="footer" class="mb-12">
       <div class="bg-black text-white p-16 mx-6 rounded-xl">
-        <footer
-          class="flex items-center justify-between"
-          id="footer"
-        >
-        <img src="./lnyablack.png" alt="" id="" class="" />
-        <div class="flex items-center gap-6">
-            <img src="./insta.png" alt="" id="" class="w-6 h-6" />
-            <img src="./linkedinimage.png" alt="" id="" class="w-6 h-6" />
-            <img src="./twitterimage.png" alt="" id="" class="w-6 h-6" />
-            <img src="./faceboook.png" alt="" id="" class="w-6 h-6" />
-        </div>
-    </footer>
+        <footer class="flex items-center justify-between" id="footer">
+          <img src="./src/assets/lnyablack.png" alt="" id="" class="" />
+          <div class="flex items-center gap-6">
+            <img src="./src/assets/insta.png" alt="" id="" class="w-6 h-6" />
+            <img
+              src="./src/assets/linkedinimage.png"
+              alt=""
+              id=""
+              class="w-6 h-6"
+            />
+            <img
+              src="./src/assets/twitterimage.png"
+              alt=""
+              id=""
+              class="w-6 h-6"
+            />
+            <img
+              src="./src/assets/faceboook.png"
+              alt=""
+              id=""
+              class="w-6 h-6"
+            />
+          </div>
+        </footer>
       </div>
     </section>
   </body>
